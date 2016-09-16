@@ -1,6 +1,21 @@
 function [Ae, indice, Rp] = svmax(R,varargin)
 
-% Vertex Component Analysis
+% Successive Volume Maximization (SVMAX)
+%
+%
+% This code is a minor modification of the Vertex Component Analysis (VCA)
+%
+% J.  Nascimento and José M. B. Dias "Vertex Component Analysis: A Fast 
+% Algorithm to Unmix Hyperspectral Data", IEEE Trans. Geosci. Remote Sensing, 
+% vol. 43, no. 4, pp. 898-910, 2005.
+%
+%
+% to implement SVMAX  criterion introduced in 
+%
+% T. Chan, W.-K. Ma, A. Ambikapathi,and C.  Chi, "A simplex 
+% volume maximization framework for hyperspectral endmember extraction",
+% IEEE Trans. Geosci. and Remote Sens. vol 49. no. 11, pp. 4177-4193, 2011.
+%
 %
 % [Ae, indice, Rp ]= vca(R,'Endmembers',p,'SNR',r,'verbose',v)
 %
@@ -27,17 +42,10 @@ function [Ae, indice, Rp] = svmax(R,varargin)
 %
 % Authors: José Nascimento (zen@isel.pt) 
 %          José Bioucas Dias (bioucas@lx.it.pt) 
-% Copyright (c)
-% version: 2.1 (7-May-2004)
 %
-% For any comment contact the authors
+%          June, 2012
 %
-% more details on:
-% José M. P. Nascimento and José M. B. Dias 
-% "Vertex Component Analysis: A Fast Algorithm to Unmix Hyperspectral Data"
-% submited to IEEE Trans. Geosci. Remote Sensing, vol. .., no. .., pp. .-., 2004
-% 
-% 
+%%
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
