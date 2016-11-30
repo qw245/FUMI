@@ -3,7 +3,7 @@
 The main file 'main_FUMI.m' is to implement the joint fusion and unmixing of multi-band images
 If you use this code, please cite the following paper:
 
-Q. Wei, J. M. Bioucas-Dias, N. Dobigeon, J-Y. Tourneret, M. Chen and S. Godsill, ''Multi-band image fusion based on spectral unmixing,'' IEEE Trans. Geosci. and Remote Sens., to appear.
+Q. Wei, J. M. Bioucas-Dias, N. Dobigeon, J-Y. Tourneret, M. Chen and S. Godsill, ''Multiband image fusion based on spectral unmixing,'' IEEE Trans. Geosci. and Remote Sens., vol. 54, no. 12, pp. 7236-7249, Dec. 2016.
 
 Copyright (June, 2016):        Qi WEI (qi.wei@eng.cam.ac.uk)
 
